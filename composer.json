@@ -1,0 +1,19 @@
+{
+    "name": "ayim/package",
+    "description": "A simple package for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ayim Odhis",
+            "email": "dominic@ralphowino.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "Ayim\\package\\":"src/"
+        }
+    }
+    "minimum-stability": "dev",
+    "require": {}
+    "illuminate/support":"-5"
+}

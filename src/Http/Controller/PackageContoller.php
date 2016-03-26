@@ -9,6 +9,6 @@ class PackageController extends Controller;
 {
 	public function getallPackages()
 	{
-		return "this is my favourite part";
+		return view('package:package-list');
 	}
 }
